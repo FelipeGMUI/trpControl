@@ -1,0 +1,61 @@
+/* Arquivo listaDespesas.css */
+
+.filter-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.filter-container label {
+    margin-right: 10px;
+}
+
+.filter-container input,
+.filter-container select {
+    margin-bottom: 10px;
+}
+
+.filter-container button {
+    padding: 8px 16px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.filter-container button:hover {
+    background-color: #0056b3;
+}
+
+.despesas-list {
+    list-style: none;
+    padding: 0;
+}
+
+.despesas-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.despesas-item h4 {
+    margin: 0;
+    color: #007bff;
+}
+
+.despesas-item p {
+    margin: 5px 0;
+}
+
+.total-despesas {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}

@@ -1,0 +1,84 @@
+/* listaCombustivel.module.css */
+
+.combustivel-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .form-container div {
+    display: flex;
+    align-items: center;
+  }
+  
+  .form-container label {
+    margin-right: 10px;
+  }
+  
+  .form-container input[type="date"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  .form-container button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .show-container {
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  .show-container h3 {
+    margin-bottom: 10px;
+  }
+  
+  .show-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .show-container li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+  }
+  
+  .show-container li:last-child {
+    border-bottom: none;
+  }
+  
+  .show-container li span {
+    font-weight: bold;
+  }
+  
+  @media (max-width: 600px) {
+    .form-container {
+      flex-direction: column;
+    }
+  
+    .form-container input[type="date"] {
+      width: 100%;
+    }
+  }
+  
